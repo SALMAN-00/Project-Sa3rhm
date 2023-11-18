@@ -1,0 +1,26 @@
+/* style-appOrder.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+#appOrder-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.delivery-app {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.delivery-app img {
+  max-width: 100%;
+  height: auto;
+}
