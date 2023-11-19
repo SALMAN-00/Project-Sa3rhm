@@ -1,26 +1,40 @@
-/* style-appOrder.css */
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  margin: 0;
-  padding: 0;
-}
-
-#appOrder-list {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.delivery-app {
-  border: 1px solid #ddd;
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: #fff;
-}
-
-.delivery-app img {
-  max-width: 100%;
-  height: auto;
-}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .delivery-app {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .delivery-app img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .delivery-app button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #appOrder-list button:last-child {
+    background-color: #008CBA;
+  }
+  
+  #appOrder-list button:hover {
+    background-color: #45a049;
+  }
+  
